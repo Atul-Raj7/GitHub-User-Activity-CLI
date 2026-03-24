@@ -1,6 +1,19 @@
+let myActivity = []
 export default function checker (data){
-    console.log(data[0].type)
+
     data.forEach(element => {
-        console.log(element.type)
+        const exist = myActivity.find(item => item.id === element.repo.id && item.event === element.type)
+
+        if(exist){
+            exist.count++
+        }
+        else{
+            myActivity.push({
+                id: element.repo.id,
+                event: element.type,
+                count: 1
+            })
+        }
     });
+    console.log(myActivity)
 }
