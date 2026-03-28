@@ -22,15 +22,13 @@ Download the code in your desired folder/workspace
 node index.java <your_github_username>
 ```
 
->Note: <br> 
-<br> 
-<your_github_username> = Your GitHub Username
-<br> 
-<br> 
-Example: If your Username is "Mota-Aadmi787", then:
-<br>
-<br>
-node index.js Mota-Aadmi787
+> **Note:**
+>
+> `<your_github_username>` = Your GitHub Username  
+>
+> Example: If your Username is "Mota-Aadmi787", then:
+>
+> `node index.js Mota-Aadmi787`
 
 <br>
 <br>
